@@ -1,5 +1,22 @@
-#include <stdio.h>
-#include <assert.h>
+// Notation. Binary number system. A number 13 base 2.
+
+// (....abc) base n = c + b*n power of 1 + a*n power of 2 .....+
+
+// 0 < ......a, b, c < n;
+
+// So, base mustn't be more than 13.
+
+// In code, I divide a number on base (13 / 2 -> 6, remainder 1).
+// Next step, (6 / 2 --> 3) print out 0, 
+// (3 / 2 --> 1) print out 1 
+// (1 / 2 --> 0), print out 1,
+
+// Finally, if reverse massive, we get 1101 in binary number system
+
+// #include <stdio.h>
+// #include <assert.h>
+
+
 
 // declare functions
 void print_converted(unsigned int x, unsigned int y);
